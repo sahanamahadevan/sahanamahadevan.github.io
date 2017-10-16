@@ -3,26 +3,79 @@
 }
 
 body {
-background-color:#6898EF;
+background-color:#FFFFFF;
 color:#FFFFFF;
 }
 
-h1 {
-color:rgb(33,49,79);
-font-size: 100px;
+header {
+    color: rgb(153, 18, 132);
+    font-size: 19px;
+    font-family: "Helvetica";
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .fullname {
+        color: rgb(0, 0, 0);
+        font-size: 145px;
+        font-family: "verdana";
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .fullname {
+        color: rgb(0, 0, 0);
+        font-size: 75px;
+        font-family: "verdana";
+    }
 }
 
 a {
     text-decoration: none;
 }
 .projects{
-    background-color:#606672;
-    border: 2px solid #000000;
-    padding:20px;
-    margin: 30px;
-    width:300px;
+
+    border: 1px solid #000000;
+    text-align: center;
+    padding:10px;
+    margin: 10px;
+    width:1050px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .projects a{
-color:grey;
+color:#000000;
 }
+
+.projects a:hover{
+    background-color: black;
+    color: white;
+}
+
+.thewhy {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Helvetica";
+}
+
+
+
+
+.top-left {
+    text-align: left;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+
+
+
+
+
+
+
