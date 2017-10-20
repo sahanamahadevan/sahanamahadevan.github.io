@@ -5,12 +5,17 @@
 body {
 background-color:#FFFFFF;
 color:#000000;
+margin-bottom: 20px;
 }
 
 header {
     color: rgb(186, 186, 186);
     font-size: 19px;
     font-family: "Helvetica";
+}
+
+header h5 {
+    text-align: right;
 }
 
 a {
@@ -44,17 +49,14 @@ a {
     text-align: center;
     padding:10px;
     margin: 10px;
-    width:1050px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
 }
 
-.projects a{
-color:#000000;
-}
-
-.projects a:hover{
+.projects:hover{
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
 .thewhy {
