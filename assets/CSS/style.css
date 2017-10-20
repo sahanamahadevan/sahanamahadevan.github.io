@@ -4,16 +4,17 @@
 
 body {
 background-color:#FFFFFF;
-color:#FFFFFF;
+color:#000000;
 }
 
 header {
-    color: rgb(153, 18, 132);
+    color: rgb(186, 186, 186);
     font-size: 19px;
     font-family: "Helvetica";
 }
 
 a {
+    color: rgb(105, 105, 105);
     text-decoration: none;
 }
 
@@ -59,11 +60,18 @@ color:#000000;
 .thewhy {
     position: relative;
     text-align: center;
-    color: white;
+    color: #4B0404;
     font-family: "Helvetica";
 }
 
-
+.intro {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 1050px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
 
 
 .top-left {
