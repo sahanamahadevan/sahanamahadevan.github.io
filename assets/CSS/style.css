@@ -1,12 +1,8 @@
-* { margin-top: 20px;
-    box-sizing: border-box;
-    margin-right: 10px;
-}
 
 body {
-background-color:#FFFFFF;
-color:#000000;
-margin-bottom: 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-bottom: 20px;
 }
 
 header {
@@ -25,7 +21,6 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-
     .fullname {
         color: rgb(0, 0, 0);
         font-size: 145px;
@@ -44,17 +39,17 @@ a {
 a {
     text-decoration: none;
 }
-.projects{
 
+.projects {
     border: 1px solid #000000;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #000000;
 }
 
-.projects:hover{
+.projects:hover {
     background-color: black;
     color: white;
     text-decoration: none;
@@ -79,12 +74,11 @@ a {
 .intro-resume {
     border: 1px solid #000000;
     text-align: center;
-    padding-top:10px;
-    margin-left:60px;
+    padding-top: 10px;
+    margin-left: 60px;
     width: 1050px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
 
 .top-left {
     text-align: left;
@@ -92,10 +86,3 @@ a {
     top: 15px;
     left: 30px;
 }
-
-
-
-
-
-
-
