@@ -1,5 +1,6 @@
-* {
+* { margin-top: 20px;
     box-sizing: border-box;
+    margin-right: 10px;
 }
 
 body {
@@ -71,6 +72,15 @@ a {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    width: 1050px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.intro-resume {
+    border: 1px solid #000000;
+    text-align: center;
+    padding-top:10px;
+    margin-left:60px;
     width: 1050px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
